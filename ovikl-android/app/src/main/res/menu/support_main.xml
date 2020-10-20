@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/item_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"
+        android:visible="false"
+    />
+    <item
+        android:id="@+id/item_search"
+        android:orderInCategory="101"
+        android:title="@string/search"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/item_support"
+        android:orderInCategory="102"
+        android:title="@string/support"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item_logout"
+        android:orderInCategory="103"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+
+</menu>

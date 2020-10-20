@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layoutDirection="locale">
+
+    <TableRow android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_column="1"
+            android:padding="2dp"
+            android:text="@string/rate"
+
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:numStars="5"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:id="@+id/client_total_trips_row">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_column="1"
+            android:padding="2dp"
+            android:text="@string/total_trips" />
+
+        <TextView
+            android:id="@+id/client_total_trips"
+            android:layout_width="fill_parent"
+            android:layout_column="2"
+            android:padding="2dp" />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:id="@+id/client_trips_count_row">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_column="1"
+            android:padding="2dp"
+            android:text="@string/trips_count" />
+
+        <TextView
+            android:id="@+id/client_trips_count"
+            android:layout_width="fill_parent"
+            android:layout_column="2"
+            android:padding="2dp" />
+    </TableRow>
+    <!--<TableRow android:layout_width="fill_parent">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_column="1"
+            android:padding="2dp"
+            android:text="@string/cancel_count" />
+        <TextView
+            android:id="@+id/client_cancel_count"
+            android:layout_width="fill_parent"
+            android:layout_column="2"
+            android:padding="2dp" />
+    </TableRow>-->
+
+    <TableRow android:layout_width="fill_parent"
+        android:id="@+id/client_claims_row">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_column="1"
+            android:padding="2dp"
+            android:text="@string/claims" />
+
+        <TextView
+            android:id="@+id/client_claims"
+            android:layout_width="fill_parent"
+            android:layout_column="2"
+            android:padding="2dp" />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_column="1"
+            android:padding="2dp"
+            android:text="@string/create_date" />
+
+        <TextView
+            android:id="@+id/client_create_date"
+            android:layout_width="fill_parent"
+            android:layout_column="2"
+            android:padding="2dp" />
+    </TableRow>
+</TableLayout>

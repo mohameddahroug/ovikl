@@ -1,0 +1,188 @@
+
+/* Class = "UILabel"; text = "Vehicle type"; ObjectID = "1Hf-WC-BQZ"; */
+"1Hf-WC-BQZ.text" = "نوع المركبه";
+
+/* Class = "UIButton"; normalTitle = "Support"; ObjectID = "1Ke-YI-zh0"; */
+"1Ke-YI-zh0.normalTitle" = "الدعم";
+
+/* Class = "UIButton"; normalTitle = "Support"; ObjectID = "5te-ry-uSi"; */
+"5te-ry-uSi.normalTitle" = "الدعم";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "7hj-ah-2td"; */
+"7hj-ah-2td.normalTitle" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Last trips"; ObjectID = "9pp-iv-2zx"; */
+"9pp-iv-2zx.normalTitle" = "اخر الرحلات";
+
+/* Class = "UIButton"; normalTitle = "Prices"; ObjectID = "Ayh-JZ-eeJ"; */
+"Ayh-JZ-eeJ.normalTitle" = "الاسعار";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "BqN-oS-Yqx"; */
+"BqN-oS-Yqx.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "CZ7-F5-h4p"; */
+"CZ7-F5-h4p.normalTitle" = "السابق";
+
+/* Class = "UIButton"; normalTitle = "Cancel trip"; ObjectID = "D12-sZ-C91"; */
+"D12-sZ-C91.normalTitle" = "الغاء الرحله";
+
+/* Class = "UILabel"; text = "Client rate"; ObjectID = "FFo-ZH-G8D"; */
+"FFo-ZH-G8D.text" = "تقييم العميل";
+
+/* Class = "UILabel"; text = "Please try again"; ObjectID = "FzM-Dc-36A"; */
+"FzM-Dc-36A.text" = "يرجي اعاده المحاوله";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "GaU-O4-xqd"; */
+"GaU-O4-xqd.normalTitle" = "تاكيد";
+
+/* Class = "UIButton"; normalTitle = "Confirm start point"; ObjectID = "LQP-Pr-JC7"; */
+"LQP-Pr-JC7.normalTitle" = "تاكيد نقطه البدايه";
+
+/* Class = "UILabel"; text = "Car rate"; ObjectID = "M7d-Zf-Sl8"; */
+"M7d-Zf-Sl8.text" = "تققيم المركبه";
+
+/* Class = "UIButton"; normalTitle = "About Ovikl"; ObjectID = "OXn-fZ-ql3"; */
+"OXn-fZ-ql3.normalTitle" = "عن التطبيق";
+
+/* Class = "UIButton"; normalTitle = "Show details"; ObjectID = "PM3-b5-AVu"; */
+"PM3-b5-AVu.normalTitle" = "اظهار التفاصيل";
+
+/* Class = "UILabel"; text = "Connecting"; ObjectID = "QLd-Qw-CmE"; */
+"QLd-Qw-CmE.text" = "يتم الاتصال";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "QMg-DA-dmM"; */
+"QMg-DA-dmM.title" = "عوده";
+
+/* Class = "UINavigationItem"; title = "Vechile info"; ObjectID = "S2w-Fm-pgc"; */
+"S2w-Fm-pgc.title" = "معلومات المركبه";
+
+/* Class = "UIButton"; normalTitle = "My info"; ObjectID = "SI3-pI-w6s"; */
+"SI3-pI-w6s.normalTitle" = "معلوماتي";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Ss0-qM-S95"; */
+"Ss0-qM-S95.normalTitle" = "حفظ";
+
+/* Class = "UIButton"; normalTitle = "Cost"; ObjectID = "TbJ-fk-sOp"; */
+"TbJ-fk-sOp.normalTitle" = "التكلفه";
+
+/* Class = "UIButton"; normalTitle = "Send reset key"; ObjectID = "TkU-Qs-T9s"; */
+"TkU-Qs-T9s.normalTitle" = "ارسال مفاتح اعاده الضبط";
+
+/* Class = "UINavigationItem"; title = "Ovikl"; ObjectID = "U6S-qd-F2G"; */
+"U6S-qd-F2G.title" = "Ovikl";
+
+/* Class = "UILabel"; text = "Select account type"; ObjectID = "UEC-d1-vc1"; */
+"UEC-d1-vc1.text" = "اختيار نوع العميل";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "UMB-CO-Gdx"; */
+"UMB-CO-Gdx.normalTitle" = "حفظ";
+
+/* Class = "UIButton"; normalTitle = "Chat"; ObjectID = "UME-sR-yXn"; */
+"UME-sR-yXn.normalTitle" = "محادثه";
+
+/* Class = "UIButton"; normalTitle = "Accept trip"; ObjectID = "XGX-e9-2kv"; */
+"XGX-e9-2kv.normalTitle" = "قبول الرحله";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "YTH-0U-bQV"; */
+"YTH-0U-bQV.title" = "عوده";
+
+/* Class = "UIView"; ZPz-J1-mCB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Email"; ObjectID = "ZPz-J1-mCB"; */
+"ZPz-J1-mCB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "البريد الالكتروني";
+
+/* Class = "UIView"; ZPz-J1-mCB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[1] = "Enter email"; ObjectID = "ZPz-J1-mCB"; */
+"ZPz-J1-mCB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[1]" = "ادخل البريد الالكتروني";
+
+/* Class = "UIView"; ZPz-J1-mCB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[2] = "invalid email"; ObjectID = "ZPz-J1-mCB"; */
+"ZPz-J1-mCB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[2]" = "البريد الالكتروني غير صحيح";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "bIt-mN-aMv"; */
+"bIt-mN-aMv.normalTitle" = "حفظ";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "buU-1J-ftu"; */
+"buU-1J-ftu.normalTitle" = "الغاء";
+
+/* Class = "UILabel"; text = "You are online now"; ObjectID = "bve-21-h6y"; */
+"bve-21-h6y.text" = "انت متصل الآن";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "c6n-aS-W32"; */
+"c6n-aS-W32.normalTitle" = "حفظ";
+
+/* Class = "UIBarButtonItem"; title = "Map"; ObjectID = "ceZ-xd-fWV"; */
+"ceZ-xd-fWV.title" = "خريطه";
+
+/* Class = "UIButton"; normalTitle = "Arrived to client"; ObjectID = "cxT-Q6-lY5"; */
+"cxT-Q6-lY5.normalTitle" = "تم الوصول للعميل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dNf-bH-D1u"; */
+"dNf-bH-D1u.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Reset password"; ObjectID = "dY6-Sb-amx"; */
+"dY6-Sb-amx.title" = "اعاده ضبط كلمه السر";
+
+/* Class = "UINavigationItem"; title = "Register"; ObjectID = "eLz-HD-a9v"; */
+"eLz-HD-a9v.title" = "التسجيل";
+
+/* Class = "UIBarButtonItem"; title = "☰"; ObjectID = "fqx-96-WtN"; */
+"fqx-96-WtN.title" = "☰";
+
+/* Class = "UINavigationItem"; title = "Prices"; ObjectID = "ftS-FH-ycu"; */
+"ftS-FH-ycu.title" = "الاسعار";
+
+/* Class = "UIButton"; normalTitle = "Last trips"; ObjectID = "gN1-TD-SqC"; */
+"gN1-TD-SqC.normalTitle" = "اخر الرحلات";
+
+/* Class = "UIButton"; normalTitle = "Call"; ObjectID = "lpb-Lh-sLz"; */
+"lpb-Lh-sLz.normalTitle" = "اتصل";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "m8e-kI-fBO"; */
+"m8e-kI-fBO.normalTitle" = "ارسال";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "mek-4K-rlS"; */
+"mek-4K-rlS.normalTitle" = "التسجيل";
+
+/* Class = "UIButton"; normalTitle = "Forget password"; ObjectID = "njN-ye-bb0"; */
+"njN-ye-bb0.normalTitle" = "نسيت كلمه السر";
+
+/* Class = "UIButton"; normalTitle = "Resend activation email"; ObjectID = "ofu-Up-j6A"; */
+"ofu-Up-j6A.normalTitle" = "اعاده ارسال رساله التنشيط";
+
+/* Class = "UILabel"; text = "Invalid type"; ObjectID = "qdg-hj-vRy"; */
+"qdg-hj-vRy.text" = "النوع غير صحيح";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "qkN-ux-6ch"; */
+"qkN-ux-6ch.normalTitle" = "خروج";
+
+/* Class = "UIButton"; normalTitle = "Finish trip"; ObjectID = "rHS-KO-k60"; */
+"rHS-KO-k60.normalTitle" = "انهاء الرحله";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "tDV-3H-kHD"; */
+"tDV-3H-kHD.normalTitle" = "حفظ";
+
+/* Class = "UIButton"; normalTitle = "Vehicle info"; ObjectID = "uQC-AF-4ce"; */
+"uQC-AF-4ce.normalTitle" = "معلومات المركبه";
+
+/* Class = "UILabel"; text = "Claim"; ObjectID = "vL2-BM-OPP"; */
+"vL2-BM-OPP.text" = "شكوي";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "wC1-dK-5FI"; */
+"wC1-dK-5FI.normalTitle" = "انهاء";
+
+/* Class = "UIButton"; normalTitle = "Back to Map"; ObjectID = "yel-G6-G0A"; */
+"yel-G6-G0A.normalTitle" = "العوده للخريطه";
+
+/* Class = "UIButton"; normalTitle = "Arrived to client"; ObjectID = "yez-ep-WJk"; */
+"yez-ep-WJk.normalTitle" = "تم الوصول للعميل";
+
+/* Class = "UIButton"; normalTitle = "Trip estimation"; ObjectID = "z6K-wK-mcK"; */
+"z6K-wK-mcK.normalTitle" = "تقدير الرحله";
+
+/* Class = "UINavigationItem"; title = "Last trip"; ObjectID = "zAf-lW-VTu"; */
+"zAf-lW-VTu.title" = "اخر رحله";
+
+/* Class = "UIButton"; normalTitle = "Change start point"; ObjectID = "zCR-pw-JMd"; */
+"zCR-pw-JMd.normalTitle" = "تغيير نقطه البدايه";
+"UhE-G1-qTa.normalTitle"="تغيير كلمة السر";
+"lMF-rg-kz7.normalTitle"="اتصل بدعم المنطقة";
+"Ms5-Ab-RW5.title"="معلوماتي";
+"9sk-QV-pOC.normalTitle"="حفظ";
+"gOc-TN-2f7.title"="تغيير كلمة السر";

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_checklocation">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.caoutch.transnet.activity.MainActivity"
+        android:label="@string/app_name"
+        tools:layout="@layout/content_main" />
+
+
+    <fragment
+        android:id="@+id/nav_my_info"
+        android:name="com.caoutch.transnet.activity.MyInfoActivity"
+        android:label="@string/my_info"
+        tools:layout="@layout/my_info_register" />
+
+    <fragment
+        android:id="@+id/nav_last_trip"
+        android:name="com.caoutch.transnet.activity.LastTripActivity"
+        android:label="@string/last_trip"
+        tools:layout="@layout/activity_last_trip" />
+
+
+
+
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.caoutch.transnet.activity.ChangePasswordActivity"
+        android:label="@string/change_password"
+        tools:layout="@layout/activity_change_password" />
+
+    <fragment
+        android:id="@+id/nav_checklocation"
+        android:name="com.caoutch.transnet.activity.CheckLocationActivity"
+        android:label="@string/app_name"
+        tools:layout="@layout/activity_check_location" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.caoutch.transnet.activity.LoginActivity"
+        android:label="@string/login"
+        tools:layout="@layout/activity_login" />
+
+
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.caoutch.transnet.activity.RegisterActivity"
+        android:label="@string/register"
+        tools:layout="@layout/activity_register" />
+
+
+    <fragment
+        android:id="@+id/nav_register_car"
+        android:name="com.caoutch.transnet.activity.RegisterCarActivity2"
+        android:label="@string/car_info"
+        tools:layout="@layout/activity_register_car2" />
+
+
+    <fragment
+        android:id="@+id/nav_register_prices"
+        android:name="com.caoutch.transnet.activity.RegisterPricesActivity"
+        android:label="@string/prices"
+        tools:layout="@layout/activity_register_prices" />
+
+
+    <fragment
+        android:id="@+id/nav_resetpassword"
+        android:name="com.caoutch.transnet.activity.ResetPasswordActivity"
+        android:label="@string/reset_password"
+        tools:layout="@layout/activity_reset_password" />
+
+
+    <fragment
+        android:id="@+id/nav_trips"
+        android:name="com.caoutch.transnet.activity.TripsActivity"
+        android:label="@string/trips"
+        tools:layout="@layout/activity_trips" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.caoutch.transnet.activity.UsersActivity"
+        android:label="@string/users"
+        tools:layout="@layout/activity_users" />
+
+    <fragment
+        android:id="@+id/nav_blocked_users"
+        android:name="com.caoutch.transnet.activity.BlockedUsersActivity"
+        android:label="@string/blocked_users"
+        tools:layout="@layout/activity_blocked_users" />
+
+</navigation>

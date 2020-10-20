@@ -1,0 +1,80 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+
+
+.product-image1{
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  width:140px;
+  height: 300;
+  border-radius: 24px;
+  -webkit-transform: skewX(5deg);
+  transform: skewX(5deg);
+}
+
+
+.product-image{ 
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width:240px;
+  height: 520px;
+  border-radius: 40px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-image2{
+  position: absolute;
+  left: 10%;
+  top: -30%;
+  width:240px;
+  height: 520px;
+  border-radius: 40px;
+  opacity: 0.5;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }

@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Ovikl
+
+  Created by Mohamed Dahroug on 25/09/2018.
+  Copyright © 2018 Ovikl. All rights reserved.
+*/
+"url" = "https://ovikl.com";
+"chat with driver" = "chat with driver";
+"chat with client" = "chat with client";
+"The Driver has another trip" = "The Driver has another trip";
+"Waiting for driver acceptance" = "Waiting for driver acceptance";
+"The trip is finished" = "The trip is finished";
+"cost" = "cost";
+"duration" = "duration";
+"minutes" = "minutes";
+"km" = "km";
+"distance" = "distance";
+"minimum cost" = "minimum cost";
+"The driver accepted the trip" = "The driver accepted the trip";
+"The driver cancelled the trip" = "The driver cancelled the trip";
+"The client cancelled the trip" = "The client cancelled the trip";
+"The driver arrived to start point" = "The driver arrived to start point";
+"The driver confirm the trip" = "The driver confirm the trip";
+"The driver reject the trip" = "The driver reject the trip";
+"The driver arrived to start point" = "The driver arrived to start point";
+"You have new Trip" = "You have new Trip";
+"Cancel trip" = "Cancel trip";
+"Are you sure you want to cancel this trip?" = "Are you sure you want to cancel this trip?";
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Ovikl" = "Ovikl";
+"Finish trip" = "Finish trip";
+"Are you sure you want to finish this trip?" = "Are you sure you want to finish this trip?";
+"Hide details" = "Hide details";
+"Show details" = "Show details";
+"Enter user name" = "Enter user name";
+"Inactive account" = "Inactive account";
+"Your account is not active, contact with support" = "Your account is not active, contact with support";
+"Uploading image" = "Uploading image";
+"Location" = "Location";
+"Please allow Ovikl to access this device location" = "Please allow Ovikl to access this device location";
+"Rate" = "Rate";
+"Total trips" = "Total trips";
+"Trips count" = "Trips count";
+"Claims" = "Claims";
+"Register from" = "Register from";
+"hours" = "hours";
+"connecting"="Connecting";
+"search_driver"="Searching for drivers in your zone";
+"select_driver"="Select a driver from the map";
+"wait_requests"="Please wait trip request";
+"wait_upload"="Please wait till upload the current photo";
+"invalid_promo_code"="Invalid promotion code";
+"applied_promo"="The promotion is applied";
+"upto"="up to";
+"by_credit_card"="by credit card";
+"by_cash"="by cash";
+"promo"="Promotion";

@@ -1,0 +1,16 @@
+exports.uploadPath='/home/ubuntu/images';
+//exports.uploadPath='/Users/mohameddahroug/Desktop/projects/images';
+//exports.prod=true;
+exports.secret = 'mongodb://localhost:27017/transnet';
+exports.minAndroidVersion=34;
+exports.minIOSVersion=23;
+exports.timeout = 7000;
+//exports.timeoutLong=12000;
+exports.timeoutServer = 10000;
+//exports.timeoutServerLong = 15000;
+exports.interval=5000;
+exports.fastInterval=5000;
+//exports.intervalLong=10000;
+//exports.fastIntervalLong=10000;
+exports.smallImage=100;
+exports.largeImage=400;

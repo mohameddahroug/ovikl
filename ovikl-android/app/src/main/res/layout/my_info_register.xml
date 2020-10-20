@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caoutch.transnet.view.LoadingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ovikl="http://ovikl.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyInfoActivity"
+    android:id="@+id/MyInfoActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="55dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/first_name"
+                ovikl:hint="@string/first_name_hint"
+                ovikl:error="@string/first_name_err"
+                android:id="@+id/firstNameET"
+                ovikl:regexp="[\\w\\. ]{2,}"
+                android:layout_margin="5dp"
+                ovikl:required="true"
+                />
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/last_name"
+                ovikl:hint="@string/last_name_hint"
+                ovikl:error="@string/last_name_err"
+                android:id="@+id/lastNameET"
+                ovikl:regexp="[\\w\\. ]{2,}"
+                android:layout_margin="5dp"
+                ovikl:required="true"
+                />
+
+
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/mobile"
+                ovikl:hint="@string/mobile_hint"
+                ovikl:error="@string/mobile_err"
+                android:id="@+id/mobileET"
+                ovikl:regexp="(\\+|00)?\\d{6,}"
+                android:layout_margin="5dp"
+                ovikl:required="true"
+                ovikl:inputType="phone"
+                />
+
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/zone"
+                ovikl:hint="@string/zone_hint"
+                ovikl:error="@string/zone_err"
+                android:id="@+id/myZoneET"
+                ovikl:regexp="[^\\W_]{2,}"
+                android:layout_margin="5dp"
+                ovikl:required="false"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/myContactZoneTV"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:autoLink="all"
+                />
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:layout_gravity="center"
+                android:minWidth="200dp"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:textAllCaps="false"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</com.caoutch.transnet.view.LoadingRelativeLayout>

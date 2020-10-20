@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_my_info"
+            android:title="@string/my_info" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:title="@string/change_password" />
+        <item
+            android:id="@+id/nav_last_trip"
+            android:title="@string/last_trip" />
+        <item
+            android:id="@+id/nav_register_driver"
+            android:title="@string/driver_info"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_register_car"
+            android:title="@string/car_info"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_register_prices"
+            android:title="@string/prices"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_users"
+            android:title="@string/users"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_trips"
+            android:title="@string/trips"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_blocked_users"
+            android:title="@string/blocked_users"
+            android:visible="false"
+            />
+        <!--<item
+            android:id="@+id/nav_trips_history"
+            android:title="@string/trips_history" />-->
+        <item
+            android:id="@+id/nav_support"
+            android:title="@string/support"
+            />
+        <item
+            android:id="@+id/nav_call_support"
+            android:title="@string/call_zone_support"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout"
+            />
+    </group>
+</menu>

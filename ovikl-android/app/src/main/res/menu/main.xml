@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/item_exit"
+        android:title=""
+        app:showAsAction="always"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/item_back"
+
+        android:title="@string/map"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_expected"
+        android:orderInCategory="100"
+        android:title="@string/expected_trip_duration_and_distance"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/item_change_start_point"
+        android:orderInCategory="100"
+        android:title="@string/change_start_point"
+        app:showAsAction="never"
+        android:visible="false"
+
+        />
+
+    <item
+        android:id="@+id/item_confirm_start_point"
+        android:orderInCategory="100"
+        android:title="@string/confirm_start_point"
+        app:showAsAction="never"
+        android:visible="false"
+
+        />
+
+    <item
+        android:id="@+id/item_accept"
+        android:visible="false"
+        android:title="@string/accept_trip"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item_arrived"
+        android:visible="false"
+        android:title="@string/arrived_to_client"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item_finish"
+        android:visible="false"
+        android:title="@string/finish_trip"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item_cancal"
+        android:visible="false"
+        android:title="@string/cancel_trip"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item_chat"
+        android:visible="false"
+        android:title=""
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item_call"
+        android:visible="false"
+        android:title=""
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/item_map"
+        android:title="@string/map"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/action_lastTrip"
+        android:title="@string/last_trip"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_support"
+        android:title="@string/support"
+        app:showAsAction="never"
+        />
+
+
+</menu>

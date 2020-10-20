@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caoutch.transnet.view.LoadingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ovikl="http://ovikl.com"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerCarActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterCarActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="55dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/rounded_border_light"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/carTypeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:text="@string/car_type"
+                    android:textAlignment="center" />
+
+                <HorizontalScrollView
+                    android:id="@+id/typesScroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:id="@+id/carType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+
+
+                <TextView
+                    android:id="@+id/carTypeErrTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:text="@string/carTypeErr"
+                    android:textAlignment="center"
+                    android:textColor="@color/BUTTON_NEGATIVE"
+                    android:textSize="10dp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:id="@+id/carManufacturerET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:error="@string/carManufacturerErr"
+                ovikl:hint="@string/carManufacturerHint"
+                ovikl:regexp="[\\w\\. ]{2,}"
+                ovikl:required="true"
+                ovikl:title="@string/carManufacturer" />
+
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:id="@+id/carModelET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:error="@string/carModelErr"
+                ovikl:hint="@string/carModelHint"
+                ovikl:regexp="[\\w\\. ]{2,}"
+                ovikl:required="false"
+                ovikl:title="@string/carModel" />
+
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:id="@+id/carMadeYearET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:error="@string/carMadeYearErr"
+                ovikl:hint="@string/carMadeYearHint"
+                ovikl:inputType="number"
+                ovikl:regexp="(20|19)\\d{2}"
+                ovikl:required="true"
+                ovikl:title="@string/carMadeYear" />
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:id="@+id/carNumberET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:error="@string/carNumberErr"
+                ovikl:hint="@string/carNumberHint"
+                ovikl:regexp="[\\w]{2,}"
+                ovikl:required="false"
+                ovikl:title="@string/carNumber" />
+
+
+            <com.caoutch.transnet.view.SelectImage
+                android:id="@+id/carFrontBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:delete_text="@string/delete_car_front"
+                ovikl:error_text="@string/car_front"
+                ovikl:required="true"
+                ovikl:select_text="@string/car_front" />
+
+            <com.caoutch.transnet.view.SelectImage
+                android:id="@+id/carSideBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:delete_text="@string/delete_car_side"
+                ovikl:error_text="@string/car_side"
+                ovikl:required="true"
+                ovikl:select_text="@string/car_side" />
+
+            <com.caoutch.transnet.view.SelectImage
+                android:id="@+id/carBackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ovikl:delete_text="@string/delete_car_back"
+                ovikl:error_text="@string/car_back"
+                ovikl:select_text="@string/car_back" />
+
+
+            <Button
+                android:id="@+id/nextDriverBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:minWidth="200dp"
+                android:text="@string/save"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</com.caoutch.transnet.view.LoadingRelativeLayout>

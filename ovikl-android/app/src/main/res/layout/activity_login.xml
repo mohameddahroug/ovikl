@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caoutch.transnet.view.LoadingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ovikl="http://ovikl.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:id="@+id/activity_info"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/caoutch"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginErrTextView"
+
+                android:textColor="@color/BUTTON_NEGATIVE"
+                android:textAlignment="center"/>
+
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/email"
+                ovikl:hint="@string/email_hint"
+                ovikl:error="@string/email_err"
+                android:id="@+id/userNameEditText"
+                ovikl:regexp="[\\w\\.-]{2,}\\@\\w+\\.\\w+"
+                android:layout_margin="5dp"
+                ovikl:required="true"
+                ovikl:inputType="textEmailAddress"
+                />
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/password"
+                ovikl:hint="@string/password_hint"
+                ovikl:error="@string/password_err"
+                android:id="@+id/passwordEditText"
+                ovikl:regexp="[\\w]{6,}"
+                android:layout_margin="5dp"
+                ovikl:inputType="textPassword"
+                ovikl:required="true"
+                />
+            <com.caoutch.transnet.view.EditTextLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ovikl:title="@string/zone"
+                ovikl:hint="@string/zone_hint"
+                ovikl:error="@string/zone_err"
+                android:id="@+id/infoZoneET"
+                ovikl:regexp="[^\\W_]{2,}"
+                android:layout_margin="5dp"
+                ovikl:required="false"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/infoContactZoneTV"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:autoLink="all"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/primaryTextColor"
+                android:text="@string/login"
+                android:textAllCaps="false"
+
+                android:id="@+id/loginClientBtn2"
+                android:layout_gravity="center_horizontal"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/primaryTextColor"
+                android:text="@string/resend_activation_email"
+                android:textAllCaps="false"
+
+                android:id="@+id/sendVerifyEmailBtn"
+                android:layout_gravity="center_horizontal"
+
+                android:visibility="gone"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:textColor="@color/primaryTextColor"
+                    android:text="@string/forget_password"
+                    android:textAllCaps="false"
+
+                    android:id="@+id/forgetPasswordBtn"
+
+
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:textColor="@color/primaryTextColor"
+                    android:text="@string/register"
+                    android:textAllCaps="false"
+
+                    android:id="@+id/registerBtn"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.caoutch.transnet.view.LoadingRelativeLayout>
