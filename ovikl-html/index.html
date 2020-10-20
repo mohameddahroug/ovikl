@@ -1,251 +1,252 @@
 
 <html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="ovikl find nearest vehicles">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.6">
-    <title>Ovikl</title>
-    <meta property="og:image" content="http://ovikl.com/caoutch_600.png" /> 
-    <meta property="og:image" content="http://ovikl.com/caoutch.png" /> 
-    <meta property="og:title" content="Ovikl" />
-    <meta property="og:description" content="Free application to find nearest vehicles" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ovikl.com/" />
-    <meta property="fb:app_id" content="1659035890844409" />
-    <meta name="description" content="Free application to find nearest vehicles" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  
-    <!-- Bootstrap core CSS -->
-  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="ovikl find nearest vehicles">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.6">
+  <title>Ovikl</title>
+  <meta property="og:image" content="http://ovikl.com/caoutch_600.png" /> 
+  <meta property="og:image" content="http://ovikl.com/caoutch.png" /> 
+  <meta property="og:title" content="Ovikl" />
+  <meta property="og:description" content="Free application to find nearest vehicles" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ovikl.com/" />
+  <meta property="fb:app_id" content="1659035890844409" />
+  <meta name="description" content="Free application to find nearest vehicles" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+  <!-- Bootstrap core CSS -->
+<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
-  </head>
-  <script>
-    function client(){
-      $('#navbarHeader').collapse('hide');
-      $('#collapse1').collapse('show');
-      $('#collapse2').collapse('hide');
-      $('#collapse3').collapse('hide');
     }
-    function driver(){
-      $('#navbarHeader').collapse('hide');
-      $('#collapse1').collapse('hide');
-      $('#collapse2').collapse('show');
-      $('#collapse3').collapse('hide');
-    }
-    function zone(){
-      $('#navbarHeader').collapse('hide');
-      $('#collapse1').collapse('hide');
-      $('#collapse2').collapse('hide');
-      $('#collapse3').collapse('show');
-    }
-  </script>
-  <body>
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="product.css" rel="stylesheet">
+</head>
+<script>
+  function client(){
+    $('#navbarHeader').collapse('hide');
+    $('#collapse1').collapse('show');
+    $('#collapse2').collapse('hide');
+    $('#collapse3').collapse('hide');
+  }
+  function driver(){
+    $('#navbarHeader').collapse('hide');
+    $('#collapse1').collapse('hide');
+    $('#collapse2').collapse('show');
+    $('#collapse3').collapse('hide');
+  }
+  function zone(){
+    $('#navbarHeader').collapse('hide');
+    $('#collapse1').collapse('hide');
+    $('#collapse2').collapse('hide');
+    $('#collapse3').collapse('show');
+  }
+</script>
+<body>
 
 <div class="site-header sticky-top">
 <div class="collapse bg-dark " id="navbarHeader">
-    <nav class=" py-1">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-         
-          <a class="py-2  d-md-inline-block" href="javascript:client()">Client</a>
-          <a class="py-2  d-md-inline-block" href="javascript:driver()">Driver</a>
-          <a class="py-2  d-md-inline-block" href="javascript:zone()">Manage zone</a>
-          <a class="py-2  d-md-inline-block" href="mailto:support@ovikl.com?subject=Ovikl%20support">Support</a>
-        </div>
-  </div>
+  <nav class=" py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+       
+        <a class="py-2  d-md-inline-block" href="javascript:client()">Client</a>
+        <a class="py-2  d-md-inline-block" href="javascript:driver()">Driver</a>
+        <a class="py-2  d-md-inline-block" href="javascript:zone()">Manage zone</a>
+        <a class="py-2  d-md-inline-block" href="mailto:support@ovikl.com?subject=Ovikl%20support">Support</a>
+        <a class="py-2  d-md-inline-block" href="https://github.com/mohameddahroug/ovikl">Opensource</a>
+      </div>
+</div>
 <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <img src="/taxi_24.png" class="mr-2"/>
-        <strong>Ovikl</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
+  <div class="container d-flex justify-content-between">
+    <a href="#" class="navbar-brand d-flex align-items-center">
+      <img src="/taxi_24.png" class="mr-2"/>
+      <strong>Ovikl</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </div>
 </div>
+</div>
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 class="display-4 font-weight-normal">Ovikl</h1>
-    <p class="lead font-weight-normal">Find nearest vehicles. Available everywhere.</p>
-    <p class="lead font-weight-normal">Free alternative to Uber,Lyft,Careem and Bolt</p>
+<div class="col-md-5 p-lg-5 mx-auto my-5">
+  <h1 class="display-4 font-weight-normal">Ovikl</h1>
+  <p class="lead font-weight-normal">Find nearest vehicles. Available everywhere.</p>
+  <p class="lead font-weight-normal">Free and opensource alternative <br/>to Uber,Lyft,Careem and Bolt</p>
 
-    <a href="https://itunes.apple.com/us/app/caoutch/id1437613361" class="btn"><img src="/1.png" alt="" width="100" style="border-radius: 5px;"/></a>
-    <a href="https://play.google.com/store/apps/details?id=com.caoutch.transnet" class="btn"><img src="/2.png" alt="" width="100" style="border-radius: 5px;"/></a>
-  </div>
-  <img src="screenshot/7.jpg" class="product-image shadow-sm d-none d-md-block"/>
-  <img src="screenshot/13.jpg" class="product-image2 shadow-sm d-none d-md-block"/>
+  <a href="https://itunes.apple.com/us/app/caoutch/id1437613361" class="btn"><img src="/1.png" alt="" width="100" style="border-radius: 5px;"/></a>
+  <a href="https://play.google.com/store/apps/details?id=com.caoutch.transnet" class="btn"><img src="/2.png" alt="" width="100" style="border-radius: 5px;"/></a>
+</div>
+<img src="screenshot/7.jpg" class="product-image shadow-sm d-none d-md-block"/>
+<img src="screenshot/13.jpg" class="product-image2 shadow-sm d-none d-md-block"/>
 </div>
 
 <div id="collapse1" class="collapse hide">
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 collapse" id="clients">
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-    <img src="screenshot/3.jpg" class="product-image1"/>
-    <p>Clients can register and use the service from anywhere</p>
-    
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-    <img src="screenshot/11.jpg" class="product-image1"/>
-    <p>Clients can change start point</p>
-    
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-    <img src="screenshot/2.jpg" class="product-image1"/><p>Client can enter expected trip duration and distance to compare vehicles pricing</p>
-    
-  </div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+  <img src="screenshot/3.jpg" class="product-image1"/>
+  <p>Clients can register and use the service from anywhere</p>
+  
+</div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+  <img src="screenshot/11.jpg" class="product-image1"/>
+  <p>Clients can change start point</p>
+  
+</div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+  <img src="screenshot/2.jpg" class="product-image1"/><p>Client can enter expected trip duration and distance to compare vehicles pricing</p>
+  
+</div>
 </div>
 
 
 
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
- 
+
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+  <img src="screenshot/14.jpg" class="product-image1"/><p>Clients can get vehicles info to order it</p>
+  
+</div>
+
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-    <img src="screenshot/14.jpg" class="product-image1"/><p>Clients can get vehicles info to order it</p>
+    <img src="screenshot/19.jpg" class="product-image1"/><p>Clients can get vehicles info to order it</p>
+    
+  </div>
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+    <img src="screenshot/8.jpg" class="product-image1"/><p>Client can contact the driver and cancel the trip</p>
+      
+    </div>
+</div>
+
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+      <img src="screenshot/12.jpg" class="product-image1"/><p>Clients can follow the trip</p>
+      
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+      <img src="screenshot/20.jpg" class="product-image1"/><p>Clients can follow the trip</p>
+        
+      </div>
+  
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
+        <img src="screenshot/26.jpg" class="product-image1"/><p>Client can get trip history</p>
+          
+        </div>
+
+       
+    </div>
+  </div>
+    <div id="collapse2" class="collapse hide">
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 collapse" id="drivers">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/5.jpg" class="product-image1"/><p>Drivers can register and use the service from anywhere</p>
+    
+  </div>
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/18.jpg" class="product-image1"/><p>Drivers can upload vehicle info</p>
+    
+  </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/17.jpg" class="product-image1"/><p>Drivers can define the trip pricing</p>
+    
+  </div>
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/25.jpg" class="product-image1"/><p>Drivers can contact with clients and accept or reject trips</p>
+    
+  </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/9.jpg" class="product-image1"/><p>Drivers can start trip when arrived to clients</p>
+    
+  </div>
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/7.jpg" class="product-image1"/><p>Drivers can monitor the current trip</p>
+    
+  </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <p>Drivers can get trip history</p>
+    <img src="screenshot/16.jpg" class="product-image1"/>
+  </div>
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <p>Drivers can get trip history</p>
+    <img src="screenshot/6.jpg" class="product-image1"/>
+  </div>
+</div>
+</div>
+<div id="collapse3" class="collapse hide">
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" id="zone">
+  <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/100.png" class="product-image1"/><p>Zone admin can monitor the zone</p>
+    
+  </div>
+  <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+    <img src="screenshot/101.png" class="product-image1"/><p>Zone admin can manage users</p>
     
   </div>
   
-    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-      <img src="screenshot/19.jpg" class="product-image1"/><p>Clients can get vehicles info to order it</p>
-      
-    </div>
-    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-      <img src="screenshot/8.jpg" class="product-image1"/><p>Client can contact the driver and cancel the trip</p>
-        
-      </div>
-  </div>
-
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-        <img src="screenshot/12.jpg" class="product-image1"/><p>Clients can follow the trip</p>
-        
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-        <img src="screenshot/20.jpg" class="product-image1"/><p>Clients can follow the trip</p>
-          
-        </div>
-    
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center overflow-hidden">
-          <img src="screenshot/26.jpg" class="product-image1"/><p>Client can get trip history</p>
-            
-          </div>
-
-         
-      </div>
-    </div>
-      <div id="collapse2" class="collapse hide">
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 collapse" id="drivers">
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/5.jpg" class="product-image1"/><p>Drivers can register and use the service from anywhere</p>
-      
-    </div>
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/18.jpg" class="product-image1"/><p>Drivers can upload vehicle info</p>
-      
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/17.jpg" class="product-image1"/><p>Drivers can define the trip pricing</p>
-      
-    </div>
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/25.jpg" class="product-image1"/><p>Drivers can contact with clients and accept or reject trips</p>
-      
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/9.jpg" class="product-image1"/><p>Drivers can start trip when arrived to clients</p>
-      
-    </div>
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/7.jpg" class="product-image1"/><p>Drivers can monitor the current trip</p>
-      
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <p>Drivers can get trip history</p>
-      <img src="screenshot/16.jpg" class="product-image1"/>
-    </div>
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <p>Drivers can get trip history</p>
-      <img src="screenshot/6.jpg" class="product-image1"/>
-    </div>
-  </div>
+<div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
+  <img src="screenshot/102.png" class="product-image1"/><p>Zone admin can monitor trips</p>
+  
 </div>
-  <div id="collapse3" class="collapse hide">
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" id="zone">
-    <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/100.png" class="product-image1"/><p>Zone admin can monitor the zone</p>
-      
-    </div>
-    <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-      <img src="screenshot/101.png" class="product-image1"/><p>Zone admin can manage users</p>
-      
-    </div>
-    
-  <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-1 pb-md-1 px-md-5 text-center text-white overflow-hidden">
-    <img src="screenshot/102.png" class="product-image1"/><p>Zone admin can monitor trips</p>
-    
-  </div>
 </div>
 </div>
 
 <footer class="container py-5">
-  <div class="row">
-    
+<div class="row">
+  
 
 
-    <div class="col-6 col-md">
-        <h5><a class="text-dark" href="javascript:client()">Clients</a></h5>
-        
-    </div>
-    <div class="col-6 col-md">
-        <h5><a class="text-dark" href="javascript:driver()">Drivers</a></h5>
-        
-    </div>
-    <div class="col-6 col-md">
-      <h5><a class="text-dark" href="javascript:zone()">Manage zone</a></h5>
-      <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="/zone.html">Create your zone</a></li>
-        </ul>
-    </div>
-    <div class="col-6 col-md">
-        <h5>Contact</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="mailto:support@ovikl.com?subject=Ovikl%20support">support@ovikl.com</a></li>
-        </ul>
-    </div>
+  <div class="col-6 col-md">
+      <h5><a class="text-dark" href="javascript:client()">Clients</a></h5>
+      
   </div>
+  <div class="col-6 col-md">
+      <h5><a class="text-dark" href="javascript:driver()">Drivers</a></h5>
+      
+  </div>
+  <div class="col-6 col-md">
+    <h5><a class="text-dark" href="javascript:zone()">Manage zone</a></h5>
+    <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="/zone.html">Create your zone</a></li>
+      </ul>
+  </div>
+  <div class="col-6 col-md">
+      <h5>Contact</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="mailto:support@ovikl.com?subject=Ovikl%20support">support@ovikl.com</a></li>
+      </ul>
+  </div>
+</div>
 </footer>
 <script src="/bootstrap/js/jquery-3.5.1.min.js"></script>
 <script src="/bootstrap/js/bootstrap.min.js"></script>
 
-    </body>
-    </html>
+  </body>
+  </html>
