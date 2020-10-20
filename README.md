@@ -1,5 +1,5 @@
 # ovikl
-Opensource alternative to Uber,Lyft,Careem and Bolt
+https://ovikl.com is opensource alternative to Uber,Lyft,Careem and Bolt
 
 * Installing NGINX (optional in development)
 https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
