@@ -55,3 +55,6 @@ Constants class:
     static let indexUrlDev="http://localhost:8080"
     static let urlDev="http://localhost"
 ```
+
+* Support:
+support@ovikl.com
