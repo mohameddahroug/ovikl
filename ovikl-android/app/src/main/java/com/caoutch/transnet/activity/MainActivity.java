@@ -3424,10 +3424,10 @@ public class MainActivity extends SuperFragment
 
         if(User.getInstance().zoneContact!=null&&User.getInstance().zoneContact.email!=null){
             email.putExtra(Intent.EXTRA_EMAIL, new String[]{ User.getInstance().zoneContact.email});
-            email.putExtra(Intent.EXTRA_CC, new String[]{ "support@ovikl.com"});
+            email.putExtra(Intent.EXTRA_CC, new String[]{ "support@yourdomain.com"});
         }
         else{
-            email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "support@ovikl.com"});
+            email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "support@yourdomain.com"});
         }
         email.putExtra(Intent.EXTRA_SUBJECT, "Ovikl support");
         //need this to prompts email client only

@@ -10,7 +10,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820edb9-116a-43e1-9ed8-497f6eaa0a77" name="Default Changelist" comment="" />
+    <list default="true" id="3820edb9-116a-43e1-9ed8-497f6eaa0a77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/Main4Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/Main4Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/SuperFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/SuperFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/activity/MyInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/activity/MyInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/activity/TripsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/activity/TripsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/activity/UsersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caoutch/transnet/activity/UsersActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,9 +52,10 @@
     <option name="KEY_ALIAS" value="caoutch" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1cptk1vNm2e2V5LcU3k0fuAyUOg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -164,6 +175,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="v5" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="927" height="505" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1603261020701">
+      <screen x="69" y="23" width="1611" height="1027" />
+    </state>
+    <state width="927" height="505" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog/69.23.1611.1027@69.23.1611.1027" timestamp="1603261020701" />
+    <state x="411" y="284" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1603261020700">
+      <screen x="69" y="23" width="1611" height="1027" />
+    </state>
+    <state x="411" y="284" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/69.23.1611.1027@69.23.1611.1027" timestamp="1603261020700" />
+    <state x="743" y="330" key="FileChooserDialogImpl" timestamp="1603260982921">
+      <screen x="69" y="23" width="1611" height="1027" />
+    </state>
+    <state x="743" y="330" key="FileChooserDialogImpl/69.23.1611.1027@69.23.1611.1027" timestamp="1603260982921" />
     <state width="1569" height="345" key="GridCell.Tab.0.bottom" timestamp="1603175968714">
       <screen x="69" y="23" width="1611" height="1027" />
     </state>
@@ -204,10 +227,11 @@
     </state>
     <state width="1569" height="345" key="GridCell.Tab.1.right/66.23.1614.1027@66.23.1614.1027" timestamp="1603172934798" />
     <state width="1569" height="345" key="GridCell.Tab.1.right/69.23.1611.1027@69.23.1611.1027" timestamp="1603175968714" />
-    <state x="527" y="293" width="695" height="486" key="find.popup" timestamp="1603172096663">
-      <screen x="66" y="23" width="1614" height="1027" />
+    <state x="529" y="293" width="852" height="550" key="find.popup" timestamp="1603261368216">
+      <screen x="69" y="23" width="1611" height="1027" />
     </state>
     <state x="527" y="293" width="695" height="486" key="find.popup/66.23.1614.1027@66.23.1614.1027" timestamp="1603172096663" />
+    <state x="529" y="293" width="852" height="550" key="find.popup/69.23.1611.1027@69.23.1611.1027" timestamp="1603261368216" />
     <state width="516" height="296" key="javadoc.popup.new" timestamp="1603172321755">
       <screen x="66" y="23" width="1614" height="1027" />
     </state>

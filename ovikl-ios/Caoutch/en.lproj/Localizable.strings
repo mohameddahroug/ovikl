@@ -8,7 +8,7 @@
 "Client"="Client";
 "Driver"="Driver";
 "Admin"="Admin";
-"url" = "https://ovikl.com";
+"url" = "https://yourdomain.com";
 "chat with driver" = "chat with driver";
 "chat with client" = "chat with client";
 "The Driver has another trip" = "The Driver has another trip";

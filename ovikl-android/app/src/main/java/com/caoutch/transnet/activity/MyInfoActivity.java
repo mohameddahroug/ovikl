@@ -312,7 +312,7 @@ public class MyInfoActivity extends SuperFragment implements View.OnClickListene
         switch(item.getItemId()) {
             case R.id.item_support:
                 Intent email = new Intent(Intent.ACTION_SEND);
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "support@ovikl.com"});
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "support@yourdomain.com"});
                 email.putExtra(Intent.EXTRA_SUBJECT, "Ovikl support");
                 //need this to prompts email client only
                 email.setType("message/rfc822");

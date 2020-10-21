@@ -2520,10 +2520,10 @@ extension ViewController: OptionsViewDelegate {
     func support(){
         print("func OptionsViewDelegate support")
         //performSegue(withIdentifier: "supportSegue", sender: self)
-        var email="mailto:support@ovikl.com?subject=Ovikl%20support"
+        var email="mailto:support@yourdomain.com?subject=Ovikl%20support"
         if appDelegate.user.zone != nil && appDelegate.user.zone != "" && appDelegate.user.zoneContact != nil &&
             appDelegate.user.zoneContact.email != nil && appDelegate.user.zoneContact.email != ""{
-            email="mailto:"+appDelegate.user.zoneContact.email+"?cc=support@ovikl.com&subject=Ovikl%20support"
+            email="mailto:"+appDelegate.user.zoneContact.email+"?cc=support@yourdomain.com&subject=Ovikl%20support"
         }
         
         

@@ -3,8 +3,8 @@ package com.caoutch.transnet;
 public class Constants {
     public static final String dev_url="http://10.0.2.2";
     public static final String dev_nodejs_index_url="http://10.0.2.2:8080";
-    public static String url="https://ovikl.com";
-    public static String nodejs_index_url="https://index.ovikl.com";
+    public static String url="https://yourdomain.com";
+    public static String nodejs_index_url="https://subdomain.yourdomain.com";
     public static final String client="client";
     public static final String driver="driver";
     public static final String admin="admin";

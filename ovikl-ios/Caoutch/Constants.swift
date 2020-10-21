@@ -46,8 +46,8 @@ class Constants{
     static let backImageSmall="backImageSmall";
     static let sideImage="sideImage";
     static let sideImageSmall="sideImageSmall";
-    static var indexUrl="https://index.ovikl.com"
-    static var url="https://ovikl.com"
+    static var indexUrl="https://subdomain.yourdomain.com"
+    static var url="https://yourdomain.com"
     static let indexUrlDev="http://localhost:8080"
     static let urlDev="http://localhost"
     static var dateFormatter:DateFormatter{

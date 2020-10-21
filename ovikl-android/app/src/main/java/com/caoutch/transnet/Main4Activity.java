@@ -186,7 +186,7 @@ public class Main4Activity extends AppCompatActivity implements NavigationView.O
             if (appLinkData != null) {
                 String url = "https://" + appLinkData.getHost() + appLinkData.getPath() + "?" + appLinkData.getQuery();
                 Log.i(tag, url);
-                if (appLinkData.getHost().contains("index.ovikl.com") && appLinkData.getPath().contains("/verify_email")) {
+                if (appLinkData.getHost().contains("subdomain.yourdomain.com") && appLinkData.getPath().contains("/verify_email")) {
                     MyVolley myVolley = MyVolley.getInstance(this);
                     RequestQueue queue = myVolley.getRequestQueue();
                     StringRequest stringRequest = new StringRequest(Request.Method.GET, url, null, null);
@@ -244,10 +244,10 @@ public class Main4Activity extends AppCompatActivity implements NavigationView.O
 
         if(User.getInstance().zoneContact!=null&&User.getInstance().zoneContact.email!=null){
             email.putExtra(Intent.EXTRA_EMAIL, new String[]{ User.getInstance().zoneContact.email});
-            email.putExtra(Intent.EXTRA_CC, new String[]{ "support@ovikl.com"});
+            email.putExtra(Intent.EXTRA_CC, new String[]{ "support@yourdomain.com"});
         }
         else{
-            email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "support@ovikl.com"});
+            email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "support@yourdomain.com"});
         }
         email.putExtra(Intent.EXTRA_SUBJECT, "Ovikl support");
         //need this to prompts email client only
